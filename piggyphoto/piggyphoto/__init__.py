@@ -40,7 +40,7 @@ elif platform.system() == 'Windows':
     libgphoto2dll = 'libgphoto2.dll'
     unmount_cmd = None
 else:
-    libgphoto2dll = '/usr/local/lib/libgphoto2.so
+    libgphoto2dll = '/usr/local/lib/libgphoto2.so'
     unmount_cmd = 'gvfs-mount -s gphoto2'
 
 
