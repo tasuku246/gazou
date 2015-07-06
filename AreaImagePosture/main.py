@@ -1,6 +1,6 @@
 import sys,os
 import cv2
-import pylab as plt
+#import pylab as plt
 import numpy as np
 import math
 import time
